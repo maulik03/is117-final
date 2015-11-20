@@ -87,8 +87,56 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+#wrapper {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#logo {
+  width: 156px;
+  height: 33px;
+  margin-bottom: 10px;
+}
+.float_left {
+  float:left;
+}
+.float_right {
+  float:right;
+}
+.clear {
+  clear: both;
+} 
+#menu li {
+  display: inline;
+}
 
+#menu {
+  background-color: red;
+  font-size: 20px;
+}
+#content {
+  background-color: blue;
+}
+#footer {
+  background-color: green;
+}
+.callout {
+  width: 310px;
+  padding-left: 10px;
+}
+#callout1 {
+  background-color: gray;
+}
+#callout2 {
+  background-color: orange;
+}
+#callout3 {
+  background-color: cyan;
+}
 
+ul,li {
+   margin: 0px;
+}
 
 
 
